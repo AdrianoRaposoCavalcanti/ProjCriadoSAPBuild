@@ -1,0 +1,14 @@
+{
+	"Application": "/home/user/projects/ProjCriadoSAPBuild/Application.app",
+	"Target": "Mobile Services",
+	"OtherApps": [
+		{
+			"Application": "/home/user/projects/Myapp1/Application.app",
+			"Target": "Cloud Foundry"
+		},
+		{
+			"Application": "/home/user/projects/ProjCriadoSAPBuild/Application.app",
+			"Target": "Mobile Services"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"Credential": "cf",
+	"Template": {
+		"Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+		"Name": "Base",
+		"Version": "0.0.1"
+	},
+	"CF": {
+		"Target": "https://api.cf.us10-001.hana.ondemand.com",
+		"Organization": "08b7fc2e-bebf-4b0d-8823-e4f156aecf9c",
+		"Space": "7ca68da8-55bd-4b6f-82f9-3cccde9653f1"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/08b7fc2e-bebf-4b0d-8823-e4f156aecf9c/space/7ca68da8-55bd-4b6f-82f9-3cccde9653f1",
+		"AppId": "meu_app_nome_esco_ms",
+		"Destination": [
+			"com.sap.edm.sampleservice.v4"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=meu_app_nome_esco_ms&ClientId=4a1d24dc-9a8a-4536-8d6d-a880dd65bb94&ServerUrl=https://8508afd6trial-dev-meu-app-nome-esco-ms.cfapps.us10-001.hana.ondemand.com&SapCloudPlatformEndpoint=https://8508afd6trial-dev-meu-app-nome-esco-ms.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=https://8508afd6trial-dev-meu-app-nome-esco-ms.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://8508afd6trial-dev-meu-app-nome-esco-ms.cfapps.us10-001.hana.ondemand.com&TokenUrl=https://8508afd6trial-dev-meu-app-nome-esco-ms.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"LCAP": {
+		"FullName": "",
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true,
+		"Platform": "iOS & Android"
+	}
+}

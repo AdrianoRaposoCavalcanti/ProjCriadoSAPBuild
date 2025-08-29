@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/ProjCriadoSAPBuild/.build/Myapp1Adr/.build/uploadBundle.zip

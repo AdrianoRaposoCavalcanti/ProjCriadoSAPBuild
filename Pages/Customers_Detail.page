@@ -95,6 +95,16 @@
 				"IsIconCircular": false,
 				"Visible": true,
 				"OnPress": "/Myapp1Adr/Actions/NavToCustomers_Edit.action"
+			},
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem1",
+				"Caption": "Item",
+				"SystemItem": "Trash",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/Myapp1Adr/Rules/Customers_DeleteConfirmation.js"
 			}
 		],
 		"_Name": "ActionBar3",

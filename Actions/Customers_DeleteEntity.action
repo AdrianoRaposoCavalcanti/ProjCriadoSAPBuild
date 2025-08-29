@@ -1,0 +1,11 @@
+{
+	"_Type": "Action.Type.ODataService.DeleteEntity",
+	"ActionResult": {
+		"_Name": "Customers_DeleteEntity"
+	},
+	"Target": {
+		"Service": "/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service",
+		"EntitySet": "Customers",
+		"ReadLink": "{@odata.readLink}"
+	}
+}

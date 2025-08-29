@@ -1,0 +1,12 @@
+{
+	"_Type": "Action.Type.Message",
+	"ActionResult": {
+		"_Name": "Customers_DeleteConfirmation"
+	},
+	"OnFailure": "/Myapp1Adr/Actions/DeleteCustomerEntityFailureMessage.action",
+	"OnSuccess": "/Myapp1Adr/Actions/CloseModalPage_Complete.action",
+	"Message": "Delete current entity?",
+	"Title": "Delete Confirmation",
+	"OKCaption": "OK",
+	"CancelCaption": "Cancel"
+}

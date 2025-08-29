@@ -1,3 +1,8 @@
 {
-    "css.customData": ["./.vscode/my-less.css-data.json"]
+    "css.customData": [
+        "./.vscode/my-less.css-data.json"
+    ],
+    "mdk.i18n": {
+        "displayLanguages": "i18n"
+    }
 }

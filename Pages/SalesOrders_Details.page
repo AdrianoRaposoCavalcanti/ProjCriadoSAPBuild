@@ -1,0 +1,89 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"KeyAndValues": [
+						{
+							"Value": "{SalesOrderID}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue0",
+							"KeyName": "Order Number",
+							"Visible": true
+						},
+						{
+							"Value": "{LifeCycleStatusName}",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue2",
+							"KeyName": "Status",
+							"Visible": true
+						},
+						{
+							"Value": "$(D,{CreatedAt},'','',{format:'medium'})",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue3",
+							"KeyName": "Created At",
+							"Visible": true
+						},
+						{
+							"Value": "$(C,{NetAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue4",
+							"KeyName": "Net Amount",
+							"Visible": true
+						},
+						{
+							"Value": "$(C,{TaxAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue1",
+							"KeyName": "Tax Amount",
+							"Visible": true
+						},
+						{
+							"Value": "$(C,{GrossAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})",
+							"_Type": "KeyValue.Type.Item",
+							"_Name": "KeyValue5",
+							"KeyName": "Total Amount",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				}
+			],
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SalesOrders_Details",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Order Details"
+	},
+	"DesignTimeTarget": {
+		"Service": "/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service",
+		"EntitySet": "SalesOrderHeaders"
+	}
+}

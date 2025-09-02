@@ -74,6 +74,99 @@
 					"Layout": {
 						"NumberOfColumns": 2
 					}
+				},
+				{
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"Service": "/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service",
+						"EntitySet": "{@odata.readLink}/SalesOrders",
+						"QueryOptions": "$top=5&$orderby=CreatedAt desc"
+					},
+					"_Name": "SectionObjectTable0",
+					"Header": {
+						"_Type": "SectionCommon.Type.Header",
+						"_Name": "SectionCommonTypeHeader0",
+						"AccessoryType": "None",
+						"UseTopPadding": true,
+						"Caption": "Customer Orders"
+					},
+					"Footer": {
+						"_Type": "SectionCommon.Type.Footer",
+						"_Name": "SectionCommonTypeFooter0",
+						"Caption": "See All",
+						"AttributeLabel": "/Myapp1Adr/Rules/Customers_OrderCount.js",
+						"AccessoryType": "DisclosureIndicator",
+						"FooterStyle": "Attribute",
+						"Visible": true,
+						"OnPress": {
+							"Name": "/Myapp1Adr/Actions/GenericNavigation.action",
+							"Properties": {
+								"PageToOpen": "/Myapp1Adr/Pages/Customers_Orders.page"
+							}
+						},
+						"UseBottomPadding": false
+					},
+					"Visible": true,
+					"EmptySection": {
+						"Caption": "No Customer Orders Found",
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"ObjectCell": {
+						"Title": "$(D,{CreatedAt},'','',{format:'medium'})",
+						"Subhead": "{CustomerID}",
+						"DisplayDescriptionInMobile": true,
+						"StatusText": "$(C,{GrossAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})",
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "DisclosureIndicator",
+						"Tags": [],
+						"AvatarStack": {
+							"Avatars": [],
+							"ImageIsCircular": true,
+							"ImageHasBorder": false
+						},
+						"AvatarGrid": {
+							"Avatars": [],
+							"ImageIsCircular": true
+						},
+						"OnPress": {
+							"Name": "/Myapp1Adr/Actions/GenericNavigation.action",
+							"Properties": {
+								"PageToOpen": "/Myapp1Adr/Pages/SalesOrders_Details.page"
+							}
+						},
+						"_Type": "ObjectTable.Type.ObjectCell",
+						"Selected": false,
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true,
+							"LeadingItems": [],
+							"TrailingItems": [],
+							"_Type": "ObjectCell.Type.ContextMenu"
+						}
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"Grouping": {
+						"GroupingProperties": [],
+						"Header": {
+							"Items": []
+						}
+					},
+					"HighlightSelectedItem": false,
+					"Selection": {
+						"ExitOnLastDeselect": true,
+						"LongPressToEnable": "None",
+						"Mode": "None"
+					}
 				}
 			]
 		}

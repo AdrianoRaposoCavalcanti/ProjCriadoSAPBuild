@@ -79,9 +79,11 @@ let myapp1adr_pages_customers_create_page = __webpack_require__(/*! ./Myapp1Adr/
 let myapp1adr_pages_customers_detail_page = __webpack_require__(/*! ./Myapp1Adr/Pages/Customers_Detail.page */ "./build.definitions/Myapp1Adr/Pages/Customers_Detail.page")
 let myapp1adr_pages_customers_edit_page = __webpack_require__(/*! ./Myapp1Adr/Pages/Customers_Edit.page */ "./build.definitions/Myapp1Adr/Pages/Customers_Edit.page")
 let myapp1adr_pages_customers_list_page = __webpack_require__(/*! ./Myapp1Adr/Pages/Customers_List.page */ "./build.definitions/Myapp1Adr/Pages/Customers_List.page")
+let myapp1adr_pages_customers_orders_page = __webpack_require__(/*! ./Myapp1Adr/Pages/Customers_Orders.page */ "./build.definitions/Myapp1Adr/Pages/Customers_Orders.page")
 let myapp1adr_pages_errorarchive_errorarchive_detail_page = __webpack_require__(/*! ./Myapp1Adr/Pages/ErrorArchive/ErrorArchive_Detail.page */ "./build.definitions/Myapp1Adr/Pages/ErrorArchive/ErrorArchive_Detail.page")
 let myapp1adr_pages_errorarchive_errorarchive_list_page = __webpack_require__(/*! ./Myapp1Adr/Pages/ErrorArchive/ErrorArchive_List.page */ "./build.definitions/Myapp1Adr/Pages/ErrorArchive/ErrorArchive_List.page")
 let myapp1adr_pages_main_page = __webpack_require__(/*! ./Myapp1Adr/Pages/Main.page */ "./build.definitions/Myapp1Adr/Pages/Main.page")
+let myapp1adr_pages_salesorders_details_page = __webpack_require__(/*! ./Myapp1Adr/Pages/SalesOrders_Details.page */ "./build.definitions/Myapp1Adr/Pages/SalesOrders_Details.page")
 let myapp1adr_rules_application_appupdatefailure_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Application/AppUpdateFailure.js */ "./build.definitions/Myapp1Adr/Rules/Application/AppUpdateFailure.js")
 let myapp1adr_rules_application_appupdatesuccess_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Application/AppUpdateSuccess.js */ "./build.definitions/Myapp1Adr/Rules/Application/AppUpdateSuccess.js")
 let myapp1adr_rules_application_clientismultiusermode_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Application/ClientIsMultiUserMode.js */ "./build.definitions/Myapp1Adr/Rules/Application/ClientIsMultiUserMode.js")
@@ -91,6 +93,7 @@ let myapp1adr_rules_application_onwillupdate_js = __webpack_require__(/*! ./Myap
 let myapp1adr_rules_application_resetappsettingsandlogout_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Application/ResetAppSettingsAndLogout.js */ "./build.definitions/Myapp1Adr/Rules/Application/ResetAppSettingsAndLogout.js")
 let myapp1adr_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js = __webpack_require__(/*! ./Myapp1Adr/Rules/com_sap_edm_sampleservice_v4/ErrorArchive_CheckForSyncError.js */ "./build.definitions/Myapp1Adr/Rules/com_sap_edm_sampleservice_v4/ErrorArchive_CheckForSyncError.js")
 let myapp1adr_rules_customers_deleteconfirmation_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Customers_DeleteConfirmation.js */ "./build.definitions/Myapp1Adr/Rules/Customers_DeleteConfirmation.js")
+let myapp1adr_rules_customers_ordercount_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Customers_OrderCount.js */ "./build.definitions/Myapp1Adr/Rules/Customers_OrderCount.js")
 let myapp1adr_rules_emailvalidation_js = __webpack_require__(/*! ./Myapp1Adr/Rules/EmailValidation.js */ "./build.definitions/Myapp1Adr/Rules/EmailValidation.js")
 let myapp1adr_rules_logging_loglevels_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Logging/LogLevels.js */ "./build.definitions/Myapp1Adr/Rules/Logging/LogLevels.js")
 let myapp1adr_rules_logging_settracecategories_js = __webpack_require__(/*! ./Myapp1Adr/Rules/Logging/SetTraceCategories.js */ "./build.definitions/Myapp1Adr/Rules/Logging/SetTraceCategories.js")
@@ -171,9 +174,11 @@ module.exports = {
 	myapp1adr_pages_customers_detail_page : myapp1adr_pages_customers_detail_page,
 	myapp1adr_pages_customers_edit_page : myapp1adr_pages_customers_edit_page,
 	myapp1adr_pages_customers_list_page : myapp1adr_pages_customers_list_page,
+	myapp1adr_pages_customers_orders_page : myapp1adr_pages_customers_orders_page,
 	myapp1adr_pages_errorarchive_errorarchive_detail_page : myapp1adr_pages_errorarchive_errorarchive_detail_page,
 	myapp1adr_pages_errorarchive_errorarchive_list_page : myapp1adr_pages_errorarchive_errorarchive_list_page,
 	myapp1adr_pages_main_page : myapp1adr_pages_main_page,
+	myapp1adr_pages_salesorders_details_page : myapp1adr_pages_salesorders_details_page,
 	myapp1adr_rules_application_appupdatefailure_js : myapp1adr_rules_application_appupdatefailure_js,
 	myapp1adr_rules_application_appupdatesuccess_js : myapp1adr_rules_application_appupdatesuccess_js,
 	myapp1adr_rules_application_clientismultiusermode_js : myapp1adr_rules_application_clientismultiusermode_js,
@@ -183,6 +188,7 @@ module.exports = {
 	myapp1adr_rules_application_resetappsettingsandlogout_js : myapp1adr_rules_application_resetappsettingsandlogout_js,
 	myapp1adr_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js : myapp1adr_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js,
 	myapp1adr_rules_customers_deleteconfirmation_js : myapp1adr_rules_customers_deleteconfirmation_js,
+	myapp1adr_rules_customers_ordercount_js : myapp1adr_rules_customers_ordercount_js,
 	myapp1adr_rules_emailvalidation_js : myapp1adr_rules_emailvalidation_js,
 	myapp1adr_rules_logging_loglevels_js : myapp1adr_rules_logging_loglevels_js,
 	myapp1adr_rules_logging_settracecategories_js : myapp1adr_rules_logging_settracecategories_js,
@@ -482,6 +488,32 @@ function Customers_DeleteConfirmation(context) {
     } else {
       return Promise.reject('User Deferred');
     }
+  });
+}
+
+/***/ }),
+
+/***/ "./build.definitions/Myapp1Adr/Rules/Customers_OrderCount.js":
+/*!*******************************************************************!*\
+  !*** ./build.definitions/Myapp1Adr/Rules/Customers_OrderCount.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CustomerOrderCount)
+/* harmony export */ });
+/**
+* Describe this function...
+* @param {IClientAPI} context
+*/
+function CustomerOrderCount(context) {
+  // Retrieves the current customer's information from the context
+  const currentCustomer = context.getPageProxy().binding['@odata.readLink'];
+  // Counts the number of sales orders associated with the current customer.
+  return context.count('/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service', currentCustomer + '/SalesOrders', '').then(count => {
+    return count;
   });
 }
 
@@ -1128,7 +1160,7 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \*****************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"ObjectHeader":{"Subhead":"{FirstName}","Footnote":"{EmailAddress}","Description":"{CustomerID}","StatusText":"{PhoneNumber}","DetailImage":"sap-icon://customer","DetailImageIsCircular":false,"BodyText":" {DateOfBirth}","HeadlineText":"{LastName}","StatusPosition":"Stacked","StatusImagePosition":"Leading","SubstatusImagePosition":"Leading"},"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0","Visible":true},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{HouseNumber}{Street}","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Address","Visible":true},{"Value":" {City}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"City","Visible":true},{"Value":"{PostalCode}","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"Postal Code","Visible":true},{"Value":"{Country}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"Country","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}}]}],"DesignTimeTarget":{"Service":"/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Type":"Page","_Name":"Customers_Detail","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Edit","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/Myapp1Adr/Actions/NavToCustomers_Edit.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Trash","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/Myapp1Adr/Rules/Customers_DeleteConfirmation.js"}],"_Name":"ActionBar3","_Type":"Control.Type.ActionBar","Caption":"Details"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"ObjectHeader":{"Subhead":"{FirstName}","Footnote":"{EmailAddress}","Description":"{CustomerID}","StatusText":"{PhoneNumber}","DetailImage":"sap-icon://customer","DetailImageIsCircular":false,"BodyText":" {DateOfBirth}","HeadlineText":"{LastName}","StatusPosition":"Stacked","StatusImagePosition":"Leading","SubstatusImagePosition":"Leading"},"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0","Visible":true},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{HouseNumber}{Street}","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Address","Visible":true},{"Value":" {City}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"City","Visible":true},{"Value":"{PostalCode}","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"Postal Code","Visible":true},{"Value":"{Country}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"Country","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"_Type":"Section.Type.ObjectTable","Target":{"Service":"/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"{@odata.readLink}/SalesOrders","QueryOptions":"$top=5&$orderby=CreatedAt desc"},"_Name":"SectionObjectTable0","Header":{"_Type":"SectionCommon.Type.Header","_Name":"SectionCommonTypeHeader0","AccessoryType":"None","UseTopPadding":true,"Caption":"Customer Orders"},"Footer":{"_Type":"SectionCommon.Type.Footer","_Name":"SectionCommonTypeFooter0","Caption":"See All","AttributeLabel":"/Myapp1Adr/Rules/Customers_OrderCount.js","AccessoryType":"DisclosureIndicator","FooterStyle":"Attribute","Visible":true,"OnPress":{"Name":"/Myapp1Adr/Actions/GenericNavigation.action","Properties":{"PageToOpen":"/Myapp1Adr/Pages/Customers_Orders.page"}},"UseBottomPadding":false},"Visible":true,"EmptySection":{"Caption":"No Customer Orders Found","FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"ObjectCell":{"Title":"$(D,{CreatedAt},'','',{format:'medium'})","Subhead":"{CustomerID}","DisplayDescriptionInMobile":true,"StatusText":"$(C,{GrossAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})","PreserveIconStackSpacing":false,"AccessoryType":"DisclosureIndicator","Tags":[],"AvatarStack":{"Avatars":[],"ImageIsCircular":true,"ImageHasBorder":false},"AvatarGrid":{"Avatars":[],"ImageIsCircular":true},"OnPress":{"Name":"/Myapp1Adr/Actions/GenericNavigation.action","Properties":{"PageToOpen":"/Myapp1Adr/Pages/SalesOrders_Details.page"}},"_Type":"ObjectTable.Type.ObjectCell","Selected":false,"ContextMenu":{"Items":[],"PerformFirstActionWithFullSwipe":true,"LeadingItems":[],"TrailingItems":[],"_Type":"ObjectCell.Type.ContextMenu"}},"DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"Grouping":{"GroupingProperties":[],"Header":{"Items":[]}},"HighlightSelectedItem":false,"Selection":{"ExitOnLastDeselect":true,"LongPressToEnable":"None","Mode":"None"}}]}],"DesignTimeTarget":{"Service":"/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Type":"Page","_Name":"Customers_Detail","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Edit","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/Myapp1Adr/Actions/NavToCustomers_Edit.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Trash","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/Myapp1Adr/Rules/Customers_DeleteConfirmation.js"}],"_Name":"ActionBar3","_Type":"Control.Type.ActionBar","Caption":"Details"}}
 
 /***/ }),
 
@@ -1149,6 +1181,16 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
 /***/ ((module) => {
 
 module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.ContactCell","Target":{"Service":"/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Name":"SectionContactCell0","Visible":true,"EmptySection":{"FooterVisible":false},"ContactCell":{"Visible":true,"DetailImage":"res://contact.png","Headline":"{LastName}","Subheadline":"{FirstName}","Description":"{City}","OnPress":"/Myapp1Adr/Actions/NavToCustomers_Detail.action","ActivityItems":[{"_Name":"SectionContactCell0ActivityItems0","ActivityType":"Phone","ActivityValue":"{PhoneNumber}"},{"_Name":"SectionContactCell0ActivityItems1","ActivityType":"Email","ActivityValue":"{EmailAddress}"}],"ContextMenu":{"PerformFirstActionWithFullSwipe":true}},"DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"Search":{"Enabled":true,"BarcodeScanner":true}}]}],"_Type":"Page","_Name":"Customers_List","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Add","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/Myapp1Adr/Actions/NavToCustomers_Create.action"}],"_Name":"ActionBar5","_Type":"Control.Type.ActionBar","Caption":"Customers"}}
+
+/***/ }),
+
+/***/ "./build.definitions/Myapp1Adr/Pages/Customers_Orders.page":
+/*!*****************************************************************!*\
+  !*** ./build.definitions/Myapp1Adr/Pages/Customers_Orders.page ***!
+  \*****************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Grouping":{"GroupingProperties":[],"Header":{"Items":[]}},"_Type":"Section.Type.ObjectTable","Target":{"Service":"/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"SalesOrderHeaders","QueryOptions":"$filter=CustomerID eq {CustomerID}&$orderby=CreatedAt desc"},"_Name":"SectionObjectTable0","Visible":true,"EmptySection":{"Caption":"No Orders Found","FooterVisible":false},"ObjectCell":{"ContextMenu":{"Items":[],"PerformFirstActionWithFullSwipe":true,"LeadingItems":[],"TrailingItems":[],"_Type":"ObjectCell.Type.ContextMenu"},"Title":"$(D,{CreatedAt},'','',{format:'medium'})","Subhead":" {CustomerID}","DisplayDescriptionInMobile":true,"StatusText":"$(C,{GrossAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})","SubstatusText":"Substatus","PreserveIconStackSpacing":false,"AccessoryType":"DisclosureIndicator","Tags":[],"AvatarStack":{"Avatars":[],"ImageIsCircular":true,"ImageHasBorder":false},"AvatarGrid":{"Avatars":[],"ImageIsCircular":true},"OnPress":{"Name":"/Myapp1Adr/Actions/GenericNavigation.action","Properties":{"PageToOpen":"/Myapp1Adr/Pages/SalesOrders_Details.page"}},"_Type":"ObjectTable.Type.ObjectCell","Selected":false},"Search":{"Enabled":true,"BarcodeScanner":true},"DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"HighlightSelectedItem":false,"Selection":{"ExitOnLastDeselect":true,"LongPressToEnable":"None","Mode":"None"}}]}],"_Type":"Page","_Name":"Customers_Orders","ActionBar":{"Items":[],"_Name":"ActionBar2","_Type":"Control.Type.ActionBar","Caption":"Customer Orders"}}
 
 /***/ }),
 
@@ -1179,6 +1221,16 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
 /***/ ((module) => {
 
 module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/Myapp1Adr/Actions/NavToCustomers_List.action"}]}]}],"_Type":"Page","_Name":"Main","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/Myapp1Adr/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Main","PrefersLargeCaption":true}}
+
+/***/ }),
+
+/***/ "./build.definitions/Myapp1Adr/Pages/SalesOrders_Details.page":
+/*!********************************************************************!*\
+  !*** ./build.definitions/Myapp1Adr/Pages/SalesOrders_Details.page ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{SalesOrderID}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"Order Number","Visible":true},{"Value":"{LifeCycleStatusName}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"Status","Visible":true},{"Value":"$(D,{CreatedAt},'','',{format:'medium'})","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Created At","Visible":true},{"Value":"$(C,{NetAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})","_Type":"KeyValue.Type.Item","_Name":"KeyValue4","KeyName":"Net Amount","Visible":true},{"Value":"$(C,{TaxAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"Tax Amount","Visible":true},{"Value":"$(C,{GrossAmount},{CurrencyCode},'',{minimumIntegerDigits:1,minimumFractionDigits:0,maximumFractionDigits:2,useGrouping:true})","_Type":"KeyValue.Type.Item","_Name":"KeyValue5","KeyName":"Total Amount","Visible":true}],"MaxItemCount":1,"Layout":{"NumberOfColumns":2}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"SalesOrders_Details","ActionBar":{"Items":[],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Order Details"},"DesignTimeTarget":{"Service":"/Myapp1Adr/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"SalesOrderHeaders"}}
 
 /***/ }),
 
